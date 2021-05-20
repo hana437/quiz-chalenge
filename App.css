@@ -1,0 +1,136 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-color: black;
+}
+
+.container{
+  background-color: white;
+  padding: .15rem;
+  /* overflow: scroll; */
+  width:40%;
+  margin: left 20px;
+  height: 90vh;
+  /* border: 1px solid black; */
+  margin: 1rem auto; /** align elements to center*/
+}
+.second-container{
+  background: white;
+  /* height: 800px; */
+  margin: auto;
+  width: 80%;
+  height: 90%;
+  margin: 1rem auto;
+  padding: .15rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+   
+}
+.header{
+  /* margin: 1rem auto; */
+  /* justify-content: center; */
+  
+  /* align-self: center; */
+  /* margin-left: 60px; */
+  /* border: 1px solid black; */
+
+}
+
+
+
+.top-progress-bar{
+  width: 80%;
+  border: 1px solid gray;
+  height: 20px;
+  /* border-radius: 10px; */
+}
+.question-paragraph{
+  margin: 30px;
+  margin-left: 0;
+  
+  font-size:30px;
+  font-weight: bolder;
+  
+}
+.top-progress-bar{
+  background:lightslategray;
+}
+.next-question-container{
+  
+  display: flex;
+  flex-direction: column;
+  
+  height: 60%;
+  /* border: 1px solid black; */
+  /* width:70%; */
+  /* height: 200px; */
+}
+
+.lastdiv{
+  display: flex;
+  justify-content: space-between;
+}
+.green {
+  background:black;
+  color: white;
+}
+.nextque{
+  margin:auto;
+  font-size: 30px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  
+  display: flex;
+  margin: 1rem auto;
+  
+
+}
+.bt{
+  width: 200px;
+  align-self: center;
+  height: 30px;
+  border-radius: 12px;
+ 
+}
+
+.answer-section {
+  margin: 30px;
+  align-items: center;
+  display: flex;
+ 
+  width:50;
+  height: 50%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+  
+}
+.ans{
+  display: flex;
+  align-self: flex-start;
+  justify-content: space-between;
+ 
+}
+.answer-section button {
+  width: 200px;
+  align-self: center;
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 40px;
+  border-radius: 12px;
+ 
+ 
+}
+
+.score-progress{
+  /* border: 1px solid red; */
+}
